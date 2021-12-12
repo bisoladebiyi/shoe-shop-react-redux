@@ -1,6 +1,6 @@
 import { BUY_SHOES } from "./shoeType";
 
-const buyShoes = () => {
+export const buyShoes = () => {
     return {
         type: BUY_SHOES
     }
